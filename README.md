@@ -1,4 +1,4 @@
-#Reinforcement Learninng Based Drone
+# Reinforcement Learninng Based Drone
 
 In this project I have used a 2d environment for drone, with following reward function,
 ```python
