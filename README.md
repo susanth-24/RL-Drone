@@ -33,3 +33,12 @@ This project revolved around actor critic two player method, here we have two ne
 Proximal policy optimisation proposes TRPO(Trust Region) to prevent the new policy to not deviate much from old policy.
 These are the results from training the agent with the above mentioned reward function
 ![Graph](/model_v_1_2/Outputs/rewardv_1_2.png)
+
+The Research paper for PPO
+[Paper](https://arxiv.org/abs/1707.06347)
+The environment is not completely built by me 
+[Repo](https://github.com/marek-robak/Drone-2d-custom-gym-env-for-reinforcement-learning)
+
+Future Updates,
+1. Creating 3d environment using gazebo ros,
+2. Implementing this in real drone by reducing the simulation gap as much as possible.
