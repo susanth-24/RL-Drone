@@ -1,4 +1,4 @@
-# Reinforcement Learninng Based Drone
+# Reinforcement Learning Based Drone
 
 In this project I have used a 2d environment for drone, with following reward function,
 ```python
@@ -28,3 +28,8 @@ def reward_function(self,obs):
 
         return float(reward)
 ```
+## A2C PPO
+This project revolved around actor critic two player method, here we have two neural networks that correct themselves as we train mainly actor and critic. The actor predicts action and critic evaluates how good the predicted action is based on previous rewards and states.
+Proximal policy optimisation proposes TRPO(Trust Region) to prevent the new policy to not deviate much from old policy.
+These are the results from training the agent with the above mentioned reward function
+![Graph](model_v_1_2\Outputs\rewardv_1_2.png)
